@@ -252,12 +252,12 @@ function App() {
           </h1>
         </div>
 
-        <div className="container mx-auto px-6 pt-20 pb-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 pb-6 sm:pb-8 max-w-7xl">
           <div className="flex items-center justify-between mb-8">
-            <div className="flex space-x-1 bg-white/10 rounded-xl p-1 backdrop-blur-sm border border-white/20">
+            <div className="flex flex-wrap sm:flex-nowrap space-x-1 bg-white/10 rounded-xl p-1 backdrop-blur-sm border border-white/20">
               <button
                 onClick={() => setActiveTab('upload')}
-                className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
+                className={`px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 ${
                   activeTab === 'upload' 
                     ? 'bg-blue-600 text-white shadow-lg' 
                     : 'text-gray-300 hover:text-white'
@@ -267,7 +267,7 @@ function App() {
               </button>
               <button
                 onClick={() => setActiveTab('diff')}
-                className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
+                className={`px-3 sm:px-4 py-2 sm:py-3 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 ${
                   activeTab === 'diff' 
                     ? 'bg-blue-600 text-white shadow-lg' 
                     : 'text-gray-300 hover:text-white'
@@ -366,7 +366,7 @@ function App() {
                   <p className="text-gray-300 mt-2">Upload two files to compare their differences</p>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <h2 className="text-lg font-semibold text-white flex items-center space-x-2">
@@ -448,7 +448,7 @@ function App() {
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    className="text-center py-8"
+                    className="text-center py-2"
                   >
                     <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-white/20 backdrop-blur-sm">
                       <GitCompare className="w-8 h-8 text-gray-300" />
@@ -475,7 +475,7 @@ function App() {
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="grid grid-cols-1 lg:grid-cols-2 gap-6"
+                    className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6"
                   >
                     <div className="bg-white/10 rounded-xl p-6 border border-white/20 backdrop-blur-sm">
                       <div className="flex items-center space-x-3 mb-4">
@@ -577,7 +577,7 @@ function App() {
 
                     {diffViewMode === 'unified' ? (
                       <div className="bg-black/40 rounded-xl border border-white/10 overflow-hidden shadow-2xl backdrop-blur-sm">
-                        <div className="max-h-96 overflow-y-auto">
+                        <div className="max-h-[70vh] overflow-y-auto">
                           <div className="font-mono text-sm">
                             {diffResult.map((line, index) => (
                               <div
@@ -660,7 +660,7 @@ function App() {
                 </div>
 
                 <div className="flex justify-center">
-                  <div className="w-full max-w-6xl">
+                  <div className="w-full max-w-7xl mx-auto">
                     {files.left && files.right ? (
                       <Compare
                         firstContent={files.left.content}

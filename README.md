@@ -1,10 +1,10 @@
-# SpotTheDiff 🔍
+# SpotTheDiff
 
 A modern, cross-platform desktop application for comparing files and visualizing differences with a beautiful, intuitive interface.
 
 ![SpotTheDiff Screenshot](public/spotthediff.png)
 
-## ✨ Features
+## Features
 
 - **File Comparison**: Compare any two text files side-by-side or in unified view
 - **Multiple File Types**: Support for code files, images, archives, and more
@@ -15,11 +15,11 @@ A modern, cross-platform desktop application for comparing files and visualizing
 - **Modern UI**: Beautiful dark theme with smooth animations
 - **Cross-Platform**: Works on Windows, macOS, and Linux
 
-## 🎥 Demo
+## Demo
 
 https://github.com/yourusername/SpotTheDiff/assets/youruserid/spotthediff.mp4
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ npm run tauri build
 
 The built application will be available in the `src-tauri/target/release` directory.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19 + TypeScript + Vite
 - **Backend**: Rust + Tauri 2
@@ -61,7 +61,7 @@ The built application will be available in the `src-tauri/target/release` direct
 - **File Processing**: diff.js + highlight.js
 - **Icons**: Lucide React
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SpotTheDiff/
@@ -76,7 +76,7 @@ SpotTheDiff/
 └── package.json          # Node.js dependencies
 ```
 
-## 🎯 Usage
+## Usage
 
 1. **Launch the application**
 2. **Upload files** by dragging and dropping or clicking the upload areas
@@ -87,7 +87,7 @@ SpotTheDiff/
    - Switch between unified and side-by-side views
 5. **Export results** by copying to clipboard or downloading
 
-## 🔧 Configuration
+## Configuration
 
 The application can be customized through the settings panel:
 
@@ -96,7 +96,7 @@ The application can be customized through the settings panel:
 - **View Mode**: Choose between unified and side-by-side diff views
 - **Theme**: Dark theme optimized for code readability
 
-## 📦 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -104,7 +104,7 @@ The application can be customized through the settings panel:
 - `npm run tauri build` - Build Tauri application
 - `npm run preview` - Preview production build
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -114,11 +114,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Tauri](https://tauri.app/) for cross-platform desktop apps
 - UI components powered by [Tailwind CSS](https://tailwindcss.com/)

@@ -33,7 +33,7 @@ A modern, cross-platform desktop application for comparing files and visualizing
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/TerminalKyle/SpotTheDiff.git
+   git clone https://github.com/yourusername/SpotTheDiff.git
    cd SpotTheDiff
    ```
 

@@ -4,12 +4,6 @@ A modern, cross-platform desktop application for comparing files and visualizing
 
 ![SpotTheDiff Screenshot](public/spotthediff.png)
 
-<div align="center" style="flex: auto">
-  <img
-    src="/public/spotthediff.mp4"
-    style="width: 100%; object-fit: contain; border-radius: 6px" />
-</div>
-
 ## Features
 
 - **File Comparison**: Compare any two text files side-by-side or in unified view

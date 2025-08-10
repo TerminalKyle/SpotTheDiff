@@ -15,10 +15,6 @@ A modern, cross-platform desktop application for comparing files and visualizing
 - **Modern UI**: Beautiful dark theme with smooth animations
 - **Cross-Platform**: Works on Windows, macOS, and Linux
 
-## Demo
-
-https://github.com/TerminalKyle/SpotTheDiff/blob/main/public/spotthediff.mp4
-
 ## Getting Started
 
 ### Prerequisites

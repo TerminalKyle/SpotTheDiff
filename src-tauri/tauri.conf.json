@@ -12,16 +12,20 @@
   "app": {
     "windows": [
       {
-        "title": "DiffCheck",
-        "width": 1200,
-        "height": 800,
-        "minWidth": 800,
-        "minHeight": 600,
+        "title": "SpotTheDiff",
+        "width": 1400,
+        "height": 900,
+        "minWidth": 1024,
+        "minHeight": 768,
+        "maxWidth": 1920,
+        "maxHeight": 1080,
         "decorations": false,
         "transparent": true,
         "resizable": true,
         "center": true,
-        "titleBarStyle": "Overlay"
+        "titleBarStyle": "Overlay",
+        "fullscreen": false,
+        "alwaysOnTop": false
       }
     ],
     "security": {

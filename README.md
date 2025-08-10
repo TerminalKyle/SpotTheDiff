@@ -17,7 +17,7 @@ A modern, cross-platform desktop application for comparing files and visualizing
 
 ## Demo
 
-https://github.com/yourusername/SpotTheDiff/assets/youruserid/spotthediff.mp4
+https://github.com/TerminalKyle/SpotTheDiff/blob/main/public/spotthediff.mp4
 
 ## Getting Started
 
